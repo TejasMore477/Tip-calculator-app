@@ -206,11 +206,10 @@ main {
     padding: 0.7vw 0;
     width: 100%;
     background-color: hsl(183, 95%, 25%);
-    /* background-color: var(--Strong-cyan); */
     color: var(--Very-dark-cyan);
 }
 
-.bottom button:hover {
+.bottom button:active {
     background-color: var(--Light-grayish-cyan);
 }
 

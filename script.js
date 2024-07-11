@@ -4,6 +4,7 @@ const tipButtons = document.querySelectorAll("button[id^='tip']");
 const total = document.querySelector("#total");
 const ppAmount = document.querySelector("#perPerson");
 const customTip = document.querySelector("#tipcustom");
+const resetbtn = document.querySelector("#resetbtn");
 
 
 let billVal = 0.00;
@@ -69,6 +70,7 @@ function calculateTip() {
         total.innerText = "$" + totalTip.toFixed(2);
         ppAmount.innerText = "$" + tipPerPerson.toFixed(2);
     }
+    resetbtn.style.backgroundColor = "hsl(172, 67%, 45%)";
 }
 
 function reset() {
@@ -86,6 +88,7 @@ function reset() {
     billVal = 0.00;
     pepNo = 1;
     tipValue = 0.00;
+    resetbtn.style.backgroundColor = "";
 }
 
 
