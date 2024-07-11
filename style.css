@@ -46,6 +46,24 @@ button {
     font-weight: 700;
 }
 
+.success {
+    border: 1.5px solid rgb(27, 222, 27);
+    border-radius: 3px;
+}
+
+.failure {
+    border: 1.5px solid rgb(233, 14, 14);
+    border-radius: 3px;
+}
+
+#error{
+    color: rgb(246, 77, 77);
+    position: absolute;
+    top: -50%;
+    right: 5%;
+    opacity: 0;
+}
+
 main {
     height: 100%;
     width: 100%;
@@ -100,6 +118,7 @@ main {
     border-radius: 10px;
     padding: 0 0.5vw;
     background-color: var(--Very-light-grayish-cyan);
+    position: relative;
 }
 
 .left input{
