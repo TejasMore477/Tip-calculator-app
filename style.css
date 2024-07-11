@@ -240,3 +240,115 @@ main {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media (max-width: 575.98px) {
+    /* Styles for extra small devices */
+    main {
+        height: fit-content;
+        justify-content: end;
+    }
+
+    img{
+        margin: 10vw 0 0 0;
+    }
+    
+    .container {
+        height: fit-content;
+        width: 100vw;
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-start;
+        padding: 6vw;
+        gap: 5vw;
+    }
+    
+    .left {
+        height: 95vw;
+        width: 100%;
+        justify-content: start;
+        gap: 4vw;
+        overflow: hidden;
+    }
+    
+    .left>.top, .left>.bottom {
+        height: 19vw;
+        width: 100%;
+        justify-content: start;
+        gap: 1vw;
+    }
+    
+    .left .inp {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        padding: 0 2vw;
+    }
+    
+    .left input{
+        height: 60%;
+        width: 60%;
+        margin-left: 0;
+        font-size: 7vw;
+    }
+
+    span {
+        padding-bottom: 2rem;
+    }
+
+    span img{
+        height: 1.2rem;
+    }
+    
+    .left>.mid {
+        height: fit-content;
+    }
+    
+    .mid .options{
+        height: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px 0 0 0;
+    }
+    
+    .options #tip {
+        height: 6vh;
+        font-size: 5vw;
+    }
+    
+    .options>input{
+        height: 6vh;
+        width: 100%;
+    }
+    
+    .right {
+        height: fit-content;
+        width: 100%;
+        padding: 6vw;
+    }
+    
+    .right .top{
+        height: 50%;
+        width: 100%;
+        gap: 5vw;
+        margin-bottom: 9vw;
+    }
+    
+    .text,.count {
+        height: 100%;
+        width: 45%;
+    }
+    
+    .count>h1 {
+        font-size: 8vw;
+    }
+    
+    .bottom button {
+        padding: 3vw 0;
+    }
+    
+    .attribution { 
+        margin-bottom: 7vw;
+    } 
+}
