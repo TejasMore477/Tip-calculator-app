@@ -39,14 +39,12 @@ input:focus {
     box-shadow: none;
 }
 
-
 button {
     border-radius: 5px;
     border: none;
     cursor: pointer;
     font-weight: 700;
 }
-
 
 main {
     height: 100%;
@@ -113,6 +111,7 @@ main {
     font-size: 1.4vw;
     font-weight: 700;
     text-align: end;
+    padding-right: 1vw;
 }
 
 .left>.mid {
@@ -141,12 +140,17 @@ main {
 }
 
 .options>input{
-    width: 7.5rem;
+    width: 8.2rem;
     border-radius: 5px;
     border: none;
     background-color: transparent;
     text-align: center;
     margin-left: -0.02rem;
+    color: rgb(57, 56, 56);
+}
+
+#tipcustom:hover {
+    border: 2px solid var(--Grayish-cyan);
 }
 
 .right {
